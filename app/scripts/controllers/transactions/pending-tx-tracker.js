@@ -1,6 +1,6 @@
 import EventEmitter from 'safe-event-emitter';
 import log from 'loglevel';
-import EthQuery from 'ethjs-query';
+import EthQuery from '../../../../ethjs-query';
 import { TRANSACTION_STATUSES } from '../../../../shared/constants/transaction';
 import { ERROR_SUBMITTING } from './tx-state-manager';
 
